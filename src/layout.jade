@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Tyler Hughes
+    link(rel="stylesheet" href="/app.css")
+
+  body
+    .container
+      block content
+        h1 Hello world
+        
+    footer
+      block footer
+        - var date = new Date();
+        | &copy; #{date.getFullYear()} Tyler Hughes
