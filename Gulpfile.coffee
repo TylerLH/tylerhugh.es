@@ -26,7 +26,7 @@ gulp.task 'publish', ->
     region: 'us-west-2'
     bucket: 'tylerhugh.es'
 
-  gulp.src './build'
+  gulp.src './build/**/*'
   .pipe publisher.publish()
   .pipe publisher.cache()
   .pipe $.awspublish.reporter()

@@ -1,3 +1,4 @@
+@import "//fonts.googleapis.com/css?family=Lato:200,300";
 * {
   box-sizing: border-box; }
 
@@ -16,7 +17,7 @@ body {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   padding: 0;
   margin: 0;
@@ -41,7 +42,9 @@ body {
   padding: 0 1rem; }
 
 footer {
+  color: #ccc;
   font-weight: 100;
+  font-size: .8em;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
@@ -58,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 a, a:visited {
   color: #3498db;
   text-decoration: none;
-  -webkit-transition: color linear 0.3s;
-          transition: color linear 0.3s; }
+  -webkit-transition: all linear 0.3s;
+          transition: all linear 0.3s; }
   a:hover, a:visited:hover {
-    color: #20638f; }
+    color: #164666; }
